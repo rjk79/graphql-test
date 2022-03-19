@@ -5,9 +5,6 @@ import UserIndex from "./users/UserIndex";
 const App = () => (
   <div>
       <UserIndex />
-      {/* <Routes>
-        <Route path="/" component={UserIndex} />
-      </Routes> */}
   </div>
 );
 
