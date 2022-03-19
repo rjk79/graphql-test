@@ -1,0 +1,38 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^6.2.7",
+    "react": "^16.8.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.70.0",
+    "webpack-dev-middleware": "^5.3.1"
+  }
+}
